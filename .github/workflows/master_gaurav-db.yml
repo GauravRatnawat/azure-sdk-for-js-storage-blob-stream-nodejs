@@ -24,7 +24,7 @@ jobs:
       run: |
         cd v10
         npm install
-        npm run
+        npm start
 
     - name: 'Deploy to Azure Web App'
       uses: azure/webapps-deploy@v1
